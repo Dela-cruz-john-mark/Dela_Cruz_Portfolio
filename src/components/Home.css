@@ -1,0 +1,82 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: sans-serif;
+  gap: 0%;  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.home-content {
+   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+
+.home-title {
+  font-size: 48px;
+  margin: 0 0 0px 0;
+}
+
+.name {
+  color: #ff3333;
+  font-size: larger;
+}
+
+.home-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.info-tech-student {
+  font-size: 32px;
+  font-weight: bold;
+  color: #c0bdbd;
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  color: #ff3333;
+  border: 2px solid #ff3333;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+.learn-more-btn:hover {
+  background-color: #ff3333;
+  color: white;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 0%;
+  margin-left: 90px;
+}
+
+.profile-img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  box-shadow: 0 0 15px 5px #ff3333;
+}
